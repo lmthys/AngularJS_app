@@ -1,0 +1,59 @@
+#board{
+  background: #DADADA;
+  border: #999 1px solid;
+  width: 55%;
+  height: 28em;
+  padding: 24px;
+  margin: 0 auto;
+}
+#placecards{
+  width:65%;
+  margin: 0 auto;
+  padding-left: 6em;
+}
+.tile {
+  background: #825e9e;
+  border: #000 1px solid;
+  width: 91px;
+  height: 91px;
+  float: left;
+  margin: 10px;
+  padding: 20px;
+  font-size: 64px;
+  font-size: 2.5vmin;
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+}
+#container{
+  display: block;
+  width: 500px;
+  margin: 0 auto;
+}
+#newgame{
+  /* display: block;
+  width: 50%; */
+  margin: 0 auto;
+  border-radius: 5px;
+	border: 1.25px solid #969696;
+	background: linear-gradient(#969696, #cecece);
+	font-weight: bold;
+}
+#result{
+  text-align: center;
+  color: #444;
+}
+#attempts{
+  text-align: center;
+  color: #444;
+}
+#home{
+  /* display: block;
+  width: 50%; */
+  margin: 0 auto;
+  border-radius: 5px;
+	border: 1.25px solid #969696;
+	background: linear-gradient(#969696, #cecece);
+  font-weight: bold;
+  width: 6em;
+}

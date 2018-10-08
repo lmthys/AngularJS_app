@@ -1,0 +1,17 @@
+<div style="text-align: center">
+  <img width="300" alt="Alpha-Num Logo" src="./assets/logo.png">
+    <p style="color: #320f42; font-weight: bold;">G'day, mate! What should we learn today?</p>
+    <nav>
+      <a routerLink="/Alphabet-Games">Alphabet Games</a>
+      <a routerLink="/Counting-Games">Counting Games</a>
+  </nav>
+</div>
+
+<h2 style="text-align: center">Alphabet Games</h2>
+<div style="width: 15em; margin: 0 auto;">
+  <ul class = "games">
+    <li *ngFor="let game of games" [class.selected]="game === selectedGame" [routerLink]="[game.link]" (click)="onSelect(game)">
+      <span class="badge">{{game.id}}</span> {{game.name}}
+    </li>
+  </ul>
+</div>

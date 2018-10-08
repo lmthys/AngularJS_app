@@ -1,0 +1,17 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<!-- <form align="right" name="form1" method="post" action="log_out.php"> -->
+<input name="logout" type="submit" id="logout" value="Exit App" routerLink="/Login" *ngIf="router.url != '/Login'">
+<!-- </form> -->
+
+<div style="text-align:center">
+  <h1>
+    {{ title }}
+  </h1>
+  <!-- <img width="300" alt="Alpha-Num Logo" src="./assets/logo.png">
+  <p style="color: #320f42; font-weight: bold;">G'day, mate! What should we learn today?</p>
+  <nav>
+    <a routerLink="/Alphabet-Games">Alphabet Games</a>
+    <a routerLink="/Counting-Games">Counting Games</a>
+  </nav> -->
+</div>
+<router-outlet></router-outlet>
